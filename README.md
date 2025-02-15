@@ -68,6 +68,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
+Or use the provided launchers:
+- **Windows**: double-click `run_windows.bat` (as Administrator)
+- **Linux/macOS**: `bash run.sh`
 
 ### CLI / headless mode
 
@@ -120,6 +123,8 @@ keyboard-chaos/
 ├── keyboard_chaos.py   # Core engine: key hooks, mapping, timer loop
 ├── gui.py              # Tkinter GUI dashboard
 ├── requirements.txt
+├── run.sh              # Linux/macOS launcher
+├── run_windows.bat     # Windows launcher
 └── README.md
 ```
 
